@@ -22,9 +22,6 @@ VOLUME "/var/log/nginx"
 
 CMD ["nginx"]
 
-<<<<<<< HEAD
-// 443 - port only? if we will use https
-=======
 # 443 - port only if we will use https
->>>>>>> aac54e2... add Readme.md, changes in DockerFile
+
 EXPOSE 80 443
